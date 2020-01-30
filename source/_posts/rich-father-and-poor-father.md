@@ -1,9 +1,8 @@
 ---
-title: rich_father_and_poor_father
+title: 富爸爸，穷爸爸
 date: 2020-01-29 17:07:47
 tags:
 ---
-# 富爸爸，穷爸爸
 ## 第一课 富人不为钱工作
 ![money invest](https://hamiltonxx.github.io/img/rmb.jpg)
 * 我9岁时，我的爸爸是穷爸爸，好友迈克的爸爸是富爸爸。我和迈克要求富爸爸教我们赚钱，富爸爸于是开始教我们。
