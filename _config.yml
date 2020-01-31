@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title:  技术金融
-subtitle: 技术金融之路
+title:  Programming Tale
+subtitle: Do What is Great.
 description: ''
 keywords:
 author: Hamilton & Lisa
-language: zh-Hans
+language: zh_CN
 timezone: Asia/Shanghai
 
 # URL
