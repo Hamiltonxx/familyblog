@@ -6,7 +6,7 @@ index_img: http://ww1.sinaimg.cn/large/78df2758gy1gbg15gwygoj23v93kq4qr.jpg
 banner_img: http://ww1.sinaimg.cn/large/78df2758gy1gbg15gwygoj23v93kq4qr.jpg
 ---
 ## 前言
-2020年的春节过的很不平静，武汉肺炎肆虐全中国，有生以来第一次得宅在家里过年，门都不能出，更休谈拜年聚会活动。有人选择躺床上啥都不动为国做贡献，有人选择在线监工造医院大楼，有人选择房间密码地主麻将，而我和刚过门的媳妇则一起折腾起我们的博客。我们选择的Static Site Generator(SSG)为node系列的hexo,deploy在github page上。为了快速写博客，就不得不先学一下Markdown语言。
+2020年的春节过的很不平静，武汉肺炎肆虐全中国，有生以来第一次得宅在家里过年，门都不能出，更休谈拜年聚会活动。有人选择躺床上啥都不动为国做贡献，有人选择在线监工造医院大楼，有人选择房间密码地主麻将，而我和刚过门的媳妇则一起折腾起我们的博客。我们选择的Static Site Generator(SSG)为node系列的hexo,deploy在github page上。地址为 [https://hamiltonxx.github.io](https://hamiltonxx.github.io) 为了快速写博客，就不得不先学一下Markdown语言。
 > If you don't have a website nowadays, you don't exist!
 ## 初识Markdown
 Markdown是一门标记语言(Markup Language)。有了它，你只需在写普通文本时加上一些轻量注解，就能使文本按照你所想要的格式展现。标记语言的注解是用来区分文章内容和格式用的。
@@ -119,19 +119,31 @@ And this is the second line.
 
 ### 链接
 Markdown最初目的是为了使写网页更简便，自然它就有插入超链接的语法。
-```This is a link to [my blog](https://hamiltonxx.github.io).```
+```
+This is a link to [my blog](https://hamiltonxx.github.io).
+```
 如果文章里有多处引用同一链接，
-```This is a link to [my blog][blog].```
+```
+This is a link to [my blog][blog].
+```
 然后，在接下来的文本中，你定义一下该链接指向何处
-```[blog]: https://hamiltonxx.github.io```
+```
+[blog]: https://hamiltonxx.github.io
+```
 同样，如果想把链接指向某个段落，只需要把段头放在中括号里
-```This is a link to the [Writing Markdown] chapter.```
+```
+This is a link to the [Writing Markdown] chapter.
+```
 
 ### 图片
 图片链接和超链接很相似，唯一区别是需要在中括号前加"!"
-```![图片名称](图片URL)```
+```
+![图片名称](图片URL)
+```
 如果图片放在本地
-```![图片名称](path-to/my-figure)```
+```
+![图片名称](path-to/my-figure)
+```
 
 ### 水平线
 用三个或更多的asterisks(***),dashes(---)或underscores(___).
