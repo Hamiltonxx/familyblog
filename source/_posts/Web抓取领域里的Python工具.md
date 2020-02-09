@@ -121,4 +121,4 @@ class HamiltonSpider(scrapy.Spider):
 scrapy runspider samplescapy.py
 ```
 
-以上就是常用的一些python3爬虫库。最最常用的库莫过于BeautifulSoup和Scrapy,后续我们讲再详细讲这两个框架的异同以及各自怎么应用开发。
+以上就是常用的一些python3爬虫库。最最常用的库莫过于BeautifulSoup和Scrapy,后续我们将再详细讲这两个框架的异同以及各自怎么应用开发。
