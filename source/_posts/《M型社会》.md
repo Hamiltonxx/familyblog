@@ -1,7 +1,9 @@
 ---
 title: 《M型社会》
 date: 2020-01-31 16:04:27
-tags:
+tags: ["fintech","invest"]
+index_img: http://ww1.sinaimg.cn/large/78df2758gy1gbg4rb6hfyj25og3sg7wm.jpg
+banner_img: http://ww1.sinaimg.cn/large/78df2758gy1gbg4rb6hfyj25og3sg7wm.jpg
 ---
 # 第一章 M型社会来了
 * 景气会骗人
