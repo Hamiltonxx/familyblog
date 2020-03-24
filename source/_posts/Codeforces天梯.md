@@ -2,8 +2,8 @@
 title: Codeforces 天梯
 date: 2020-01-12 19:14:45
 tags: ["coding","python"]
-index_img: http://ww1.sinaimg.cn/large/78df2758gy1gbh2nj7hlvj23jk1zk7wi.jpg
-banner_img: http://ww1.sinaimg.cn/large/78df2758gy1gbh2nj7hlvj23jk1zk7wi.jpg
+index_img: http://cirraybucket.oss-cn-shanghai.aliyuncs.com/thumbnail/climber.jpg
+banner_img: http://cirraybucket.oss-cn-shanghai.aliyuncs.com/blog/climber.jpg
 ---
 ## Must Do 100 problems
 

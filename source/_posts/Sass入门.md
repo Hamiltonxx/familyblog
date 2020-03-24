@@ -2,8 +2,8 @@
 title: Sass入门
 date: 2020-02-07 15:41:32
 tags: ["technology", "css"]
-index_img: http://ww1.sinaimg.cn/large/78df2758gy1gbo2xmuu2gj24002o07wk.jpg
-banner_img: http://ww1.sinaimg.cn/large/78df2758gy1gbo2xmuu2gj24002o07wk.jpg
+index_img: http://cirraybucket.oss-cn-shanghai.aliyuncs.com/thumbnail/mobilephone.jpg
+banner_img: http://cirraybucket.oss-cn-shanghai.aliyuncs.com/blog/mobilephone.jpg
 ---
 
 ## 1. Sass 简介

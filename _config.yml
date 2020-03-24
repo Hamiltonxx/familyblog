@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title:  Programming Tale
+title:  动手编故事
 subtitle: Do What is Great.
-description: ''
+description: 'Hamilton技术博客'
 keywords:
 author: Hamilton & Lisa
 language: zh_CN
@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://cirray.cn/hamiltonblog
+url: http://blog.cirray.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

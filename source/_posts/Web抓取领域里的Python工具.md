@@ -1,9 +1,9 @@
 ---
 title: Web抓取领域里的Python工具
 date: 2020-02-02 13:20:23
-tags: ['Python','爬虫']
-index_img: http://ww1.sinaimg.cn/large/78df2758gy1gbi3cd8mw9j238o2joquc.jpg
-banner_img: http://ww1.sinaimg.cn/large/78df2758gy1gbi3cd8mw9j238o2joquc.jpg
+tags: ['python','爬虫']
+index_img: http://cirraybucket.oss-cn-shanghai.aliyuncs.com/thumbnail/spider.jpg
+banner_img: http://cirraybucket.oss-cn-shanghai.aliyuncs.com/blog/spider.jpg
 ---
 
 Web网页抓取可以通过多种不同的Python框架实现，你有很多选择，每个选择对应不同的需求。
@@ -122,3 +122,37 @@ scrapy runspider samplescapy.py
 ```
 
 以上就是常用的一些python3爬虫库。最最常用的库莫过于BeautifulSoup和Scrapy,后续我们将再详细讲这两个框架的异同以及各自怎么应用开发。
+
+## 作业
+爬取[https://www.a2oj.com/Ladders.html](https://www.a2oj.com/Ladders.html)网站或[https://hamiltonxx.github.io/2020/01/12/Codeforces天梯/](https://hamiltonxx.github.io/2020/01/12/Codeforces天梯/) 的题目和链接做成table
+### 参考答案
+```
+from bs4 import BeautifulSoup 
+import requests 
+
+with open("beginner.md","a") as f:
+    for j in range(22,33):
+        f.write('<details>\n')
+        f.write('<summary>Codeforces Rating</summary>\n\n')
+        f.write('#### 200 problems.\n\n')
+
+        r = requests.get('https://www.a2oj.com/Ladder'+str(j)+'.html')
+        soup = BeautifulSoup(r.text)
+
+        trs = soup.find_all('tr')
+
+        f.write('|ID|Problem Name|Difficulty Level|\n')
+        f.write('|---|---|:---:|\n')
+
+        for i in range(4,204):
+            tr = trs[i]
+            id = tr.td.text
+            name = tr.a.text
+            url = tr.a["href"]
+            dl = tr.find_all('td')[-1].text 
+
+            f.write('|'+id+'|['+name+']('+url+')|'+dl+'|\n')
+
+        f.write('\n')
+        f.write('</details>\n\n')
+```

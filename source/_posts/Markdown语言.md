@@ -2,8 +2,8 @@
 title: Markdown语言
 date: 2020-01-31 20:38:53
 tags: ["blog","technology"]
-index_img: http://ww1.sinaimg.cn/large/78df2758gy1gbg15gwygoj23v93kq4qr.jpg
-banner_img: http://ww1.sinaimg.cn/large/78df2758gy1gbg15gwygoj23v93kq4qr.jpg
+index_img: http://cirraybucket.oss-cn-shanghai.aliyuncs.com/thumbnail/bookshelf.jpg
+banner_img: http://cirraybucket.oss-cn-shanghai.aliyuncs.com/blog/bookshelf.jpg
 ---
 ## 前言
 2020年的春节过的很不平静，武汉肺炎肆虐全中国，有生以来第一次得宅在家里过年，门都不能出，更休谈拜年聚会活动。有人选择躺床上啥都不动为国做贡献，有人选择在线监工造医院大楼，有人选择房间密码地主麻将，而我和刚过门的媳妇则一起折腾起我们的博客。我们选择的Static Site Generator(SSG)为node系列的hexo,deploy在github page上。地址为 [https://hamiltonxx.github.io](https://hamiltonxx.github.io) 为了快速写博客，就不得不先学一下Markdown语言。
